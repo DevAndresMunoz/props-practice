@@ -11,6 +11,16 @@ function App() {
       {posts.map((post, index) => (
         <Post 
           // Task 2: Pass down the data of each JSON object to this child component.
+          key = {index}
+          liked = {post.liked}
+          saved = {post.saved}
+          totalLikes = {post.totalLikes}
+          caption = {post.caption}
+          userName = {post.userName}
+          postImgURL = {post.postImgURL}
+          userImgURL = {post.userImgURL}
+          comments = {post.comments}
+          // question here: why don't we use a semicolon to end each line?
         />
       ))}
     </div>
