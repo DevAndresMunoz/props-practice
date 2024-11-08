@@ -1,5 +1,9 @@
 // Task 3: Import the necessary component modules and/or libraries using the variables referenced below.
 
+import React, {Component} from 'react';
+import PostActions from "./PostActions";
+import CommentSection from './CommentSection';
+
 class InstagramPost extends Component {
     constructor(props) {
         super(props);
