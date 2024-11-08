@@ -66,6 +66,8 @@ class InstagramPost extends Component {
                         liked={this.state.liked}
                         saved={this.state.saved}
                         // Task 7: Pass down the appropriate handler callback functions the child component will need to invoke when/if things are clicked.
+                        onLike={this.toggleLike}
+                        toggleSave={this.toggleSave}
                     /> 
                 </div>
                 <div className="post-caption">
