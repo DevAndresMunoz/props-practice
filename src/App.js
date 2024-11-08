@@ -1,5 +1,7 @@
 import React from "react";
 import "./insta.css";
+import posts from "./demopost.json";
+import Post from "./InstagramPost"
 // Task 1: Import the necessary modules here and assign them to the appropriate variables used below. Remember that JSON files are also treated like modules.
 
 function App() {
