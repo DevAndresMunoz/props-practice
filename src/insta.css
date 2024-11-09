@@ -109,3 +109,15 @@
 .add-comment button:hover {
     background-color: #007bb5;
 }
+
+.app {
+    display: grid;
+    gap: 20px;
+}
+
+@media (min-width: 1040px) {
+    .app {
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+    }
+}
